@@ -84,3 +84,60 @@ annual_rainfall += december_rainfall
 
 
 annual_rainfall varibale consits of all the yearly rainfall data
+
+
+Strings in Python
+Assigning Strings Values
+
+Fruit = "Apple"
+Type = "Granny Smith"
+Location = "Nebraska, USA"
+
+
+
+
+# Printing the strings stored in Variables
+
+print Fruit
+print Type
+print Location
+
+
+
+How to fix a break in Python so you can use (because Pyton with think ' is the end of a stringapostrophe )
+
+
+#example here:
+'Chris\'s Laptop is running Arch Linux' 
+
+#Index in Python:
+
+# Simular to some other languages Python starts from 0 not 1:
+
+Calling index of letters from a sting 
+
+c = "Christopher"[0]
+s = "Chris"[4]
+
+
+fifth_letter = "Hello"[4]
+
+#Various String Methods in Python:
+
+len() #gets the length of number of charatrs of a string:
+
+Greeting = "Hello"
+print len(Greeting) # it would print 5:
+
+
+lower() #This gets rid of capitalizion in a sting (puts everything to lowercase):
+
+Greeting = "Hello"
+
+print Greeting.lower()
+
+upper()#This makes all letter in string uppercase: 
+
+Greeting = "Hello"
+
+print Greeting.upper()   #You would get HELLO:
