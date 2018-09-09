@@ -141,3 +141,82 @@ upper()#This makes all letter in string uppercase:
 Greeting = "Hello"
 
 print Greeting.upper()   #You would get HELLO:
+
+my_string = "hello"
+print len(my_string)
+print my_string.upper()
+
+#Expected output HELLO:
+
+#How to turn non strings into strings:
+str() 
+
+pi = 3.14
+print str(pi)  #output would be string  "3.14"
+
+
+# Dot Notation in Python:
+#Methods that use dot notations will only work with strings:
+
+String Concatenation
+
+print "Hello " + "I\'m  " + "Christopher"
+
+
+Explicit String Conversion
+#mixing variables and Strings
+
+print "The value of pi is the prime number " + str(3.14)
+
+
+String Formatting with % in Pyton
+
+The % operator after the string is used to combine a string with variables. 
+
+ou can "pad" it with zeros using %02d. The 0 means "pad with zeros", 
+the 2 means to pad to 2 characters wide, 
+and the d means the number is a signed integer (can be positive or negative).
+
+
+string_1 = "Chris"
+string_2 = "coding"
+
+print "Hello my name is %s. 'I enjoy  %s." % (string_1, string_2)
+#expected output:
+Hello my name is Chris. 'I enjoy coding.
+
+
+#raw iput using 
+
+name = raw_input("What is your name? ")
+lastname = raw_input("What is your Last Name? ")
+color = raw_input("What is your favorite color? ")
+
+print "Ah, so your name is %s, your last name is %s, " \
+"and your favorite color is %s." % (name, lastname, color)
+
+#expected output: Ah, so your name is Chirs, your last name is Hebeler, and your favorite color is Red.
+
+
+Importing Libaries in Python 
+
+
+#How to import the date and time in Python: 
+from datetime import datetime
+
+#now how to use the libary:
+
+now = datetime.now()
+print now  #expected output the current date and time:
+
+
+
+from datetime import datetime
+now = datetime.now()
+
+print now.year
+print now.month
+print now.day
+
+
+print '%02d/%02d/%04d' % (now.month, now.day, now.year)  #expected output 09-09-2018:
