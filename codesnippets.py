@@ -220,3 +220,64 @@ print now.day
 
 
 print '%02d/%02d/%04d' % (now.month, now.day, now.year)  #expected output 09-09-2018:
+
+
+from datetime import datetime
+now = datetime.now()
+
+print '%02d/%02d/%04d %02d:%02d:%02d' % (now.month, now.day, now.year, now.hour, now.minute, now.second)
+
+
+#expected out put09/10/2018 21:42:39:
+
+Control Flow 
+
+Control Flow compareaters 
+
+#Equal to (==):
+
+>>> 2 == 2
+True
+>>> 2 == 5
+False
+
+#Not Equal to(!=):
+
+>>> 2 != 5
+True
+>>> 2 != 2
+False
+
+
+#Less than(<):
+
+>>> 2 < 5
+True
+>>> 5 < 2
+False
+
+#less than or equal to (<=) :
+
+>>> 2 <= 2
+True
+>>> 5 <= 2
+False
+
+#Greater thank (>):
+
+>>> 5 > 2
+True
+>>> 2 > 5
+False
+
+#Greater than or equal to (>=):
+
+>>> 5 >= 5
+True
+>>> 2 >= 5
+False
+
+ A and B of programing 
+ 
+and, or, and not
+
