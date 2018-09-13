@@ -303,3 +303,110 @@ Boolean Or in pyton !
 
 Not
 The boolean operator not returns True for false statements and False for true statements.
+
+not False will evaluate to True, while not 41 > 40 will return False
+
+bool_one = not True
+
+bool_two = not 3 ** 4 < 4 ** 3 
+
+bool_three = not 10 % 3 <= 10 % 2
+
+bool_four = not 3 ** 2 + 4 ** 2 != 5 ** 2
+
+bool_five = not not False
+
+Order of operations rules in pyton 
+
+not is evaluated first;
+and is evaluated next;
+or is evaluated last.
+
+
+You can also use Parentheses () so anything in Parentheses is evualted on its own
+
+bool_one = False or not True and True
+
+bool_two = False and not True or True
+
+bool_three = True and not (False or False)
+
+bool_four = not not True or False and not True
+
+bool_five = False or not (True and True)
+
+
+Condiontal statments in python 
+
+#if:
+
+if 8 < 9:  #whitespace imporant with python:
+  print "Eight is less than nine!"
+
+#indenting is very important with python:
+
+
+Simple If else statement in Python 
+
+answer = "Christopher is my name"
+
+def name_check():
+    if answer == "Christopher is my name":
+        return True
+    else:             
+        return False       # Make sure this returns False
+
+def location_check():
+    if answer == "I live in Orlando Florida":
+        return True
+    else:             
+        return False       # Make sure this returns False
+
+
+
+        #else if in Python:
+        elif is short for "else if."
+
+example here
+
+def greater_less_equal_5(answer):
+    if answer > 5:
+        return 1
+    elif answer < 5:          
+        return -1
+    else:
+        return 0
+        
+print greater_less_equal_5(4)
+print greater_less_equal_5(5)
+print greater_less_equal_5(6)
+
+
+comparators recap 
+
+5 < 6
+6 >= 6
+11 == 11
+12 != 13
+
+How to ask a user for input to store data in a variable
+
+original = raw_input("Enter a word:")
+
+
+if else statment to check the length of a word by charaters
+
+original = raw_input("Enter a word:")
+if len(original) > 0:
+  print original
+else:
+  print "empty"
+
+  .isalpha() can be used to make sure there only is letters and nothing else
+
+
+original = raw_input("Enter a word:")
+if len(original) > 0 and original.isalpha():
+  print original
+else:
+  print "empty
