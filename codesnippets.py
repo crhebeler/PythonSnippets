@@ -281,3 +281,25 @@ False
  
 and, or, and not
 
+
+Boolean examples in Pyton 
+
+bool_one = False and False
+
+bool_two = -(-(-(-2))) == -2 and 4 >= 16 ** 0.5
+
+bool_three = 19 % 4 != 300 / 10 / 10 and False
+
+bool_four = -(1 ** 2) < 2 ** 0 and 10 % 10 <= 20 - 10 * 2
+
+bool_five = True and True
+
+
+Boolean Or in pyton !
+
+1 < 2 or 2 > 3 is True;
+1 > 2 or 2 > 3 is False
+
+
+Not
+The boolean operator not returns True for false statements and False for true statements.
